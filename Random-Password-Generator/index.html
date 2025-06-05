@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <link rel="Stylesheet" href="style.css" >
+</head>
+<body>
+    <div id="container">
+        <h1>Password Generator</h1>
+        <p id="message">maximum of 12 charecters in the password</p>
+        <input type="radio" id="includeLowercase">
+        <label for="includeLowercase">Include Lowercase</label><br>
+
+        <input type="radio" id="includeUppercase">
+        <label for="includeUppercase">Include Uppercase</label><br>
+
+        <input type="radio" id="includeNumbers">
+        <label for="includeNumbers">Include Numbers</label><br>
+
+        <input type="radio" id="includeSymbols">
+        <label for="includeSymbols">Include Symbols</label><br><br>
+
+        <button onclick="handleGenerate()">Submit</button>
+        <br>
+        <p id="output"></p>
+     
+    </div>
+    <script src="Basics.js"></script>
+</body>
+</html> 
