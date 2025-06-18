@@ -2,7 +2,6 @@ body{
     background-image: url(img.png);
     background-size: cover;
     margin: 0;
-
 }
 #clock-container{
     display: flex;
